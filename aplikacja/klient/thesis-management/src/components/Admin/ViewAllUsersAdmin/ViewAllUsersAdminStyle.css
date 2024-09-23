@@ -1,0 +1,96 @@
+.viewusers-table-admin {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.viewusers-th {
+  background-color: #9cc9e6;
+  text-align: left;
+  padding: 10px;
+  width: auto;
+}
+
+.viewusers-td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: auto;
+}
+
+.viewusers-tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.viewusers-tr:hover {
+  background-color: #ddd;
+}
+
+.viewusers-admin-container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  background-color: #9cc9e6;
+}
+
+.viewusers-admin-element {
+  flex: 1;
+  background-color: #9cc9e6;
+  margin: 3%;
+}
+
+.viewusers-admin-navbar {
+  width: auto;
+  background-color: var(--dark);
+}
+
+.footer-viewusers-admin {
+  display: flex;
+  flex-direction: column; 
+}
+
+.viewusers-search {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search-style-viewallusers {
+  border-radius: 2px;
+  border: none;
+  margin-left: 8px;
+}
+
+.viewusers-table-admin-all-users {
+  max-height: 480px;
+  overflow-y: auto;
+  background-color: white;
+  border: 3px solid grey;
+}
+
+/* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 768px) {
+  .viewusers-admin-element h1 {
+    padding: 25px;
+  }
+
+  .viewusers-table-admin td {
+    text-align: left;
+    width: 600px;
+    font-size: 9pt;
+  }
+
+  .viewusers-table-admin-all-users {
+    width: 100%;
+  }
+
+  .viewusers-admin-element > h1 {
+    font-size: 12pt;
+  }
+
+  .viewusers-admin-element {
+    width: 1%;
+  }
+
+}

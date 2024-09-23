@@ -1,0 +1,175 @@
+.settings-student-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #9cc9e6;
+}
+
+.container-student-element {
+  flex: 1;
+  background-color: #9cc9e6;
+  margin: 3%;
+}
+
+.div-with-buttons-settings-student {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.sw-color4-student {
+  background-color: #2FA0BE;
+}
+
+.button-in-settings-student {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 120px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.settings-student-element {
+  flex: 1;
+  background-color: #9cc9e6;
+  margin: 3%;
+}
+
+.settings-student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.settings-student-cell {
+  padding: 5px;
+  text-align: left;
+}
+
+.settings-student-cell-label {
+  font-weight: bold;
+}
+
+.settings-student-cell-value {
+  padding-left: 15px;
+}
+
+.div-to-center-table-settings-student {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.sw-tile-settings-student {
+  font-size: 13pt;
+  height: 150px;
+  margin: 1%;
+  align-items: center;
+  box-shadow: 3px 4px 3px #00000078;
+  width: 80%;
+  position: relative;
+  padding: 2%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .settings-student-element h1 {
+    padding: 15px; 
+  }
+
+  .settings-table td {
+    text-align: left;
+    width: 20%;
+    font-size: 9pt;
+  }
+
+  .settings-student-item {
+    padding: 6%;
+    width: 90%;
+    margin: 1%;
+  }
+
+  .settings-expand-button {
+    position: relative;
+    top: -15px;
+  }
+
+  .container-student-element {
+    padding: 15px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .settings-student-element h1 {
+    padding: 10px;
+    font-size: 15pt;
+  }
+
+  .div-with-buttons-settings-student {
+    height: auto;
+    align-items: center;
+  }
+
+  .button-in-settings-student {
+    width: 150px; 
+    margin: 5px; 
+  }
+
+  .settings-student-element {
+    margin: 3% 0; 
+  }
+
+  .settings-student-cell,
+  .settings-student-cell-label,
+  .settings-student-cell-value {
+    padding: 5px;
+    font-size: 10pt; 
+  }
+
+  .div-to-center-table-settings-student {
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .sw-tile-settings-student {
+    font-size: 11pt; 
+    width: 90%; 
+  }
+
+  .container-student-element {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container-student-element {
+    margin: 2%;
+  }
+
+  .settings-student-element {
+    margin: 1%;
+  }
+  
+  .settings-student-cell, 
+  .settings-student-cell-label, 
+  .settings-student-cell-value {
+    font-size: 10pt;
+    word-break: break-all;
+  }
+
+  .sw-tile-settings-student {
+    height: auto;
+  }
+};

@@ -18,7 +18,7 @@ Sciences in Tarnow</b>
 ##### Server (folder named: <b>serwer</b>)
 Commands in terminal:
 ```
-git clone https://github.com/wiktor34306/engineering_thesis.git
+git clone https://github.com/wiktor34306/Engineering_Thesis_Final.git
 cd aplikacja
 cd serwer
 npm install

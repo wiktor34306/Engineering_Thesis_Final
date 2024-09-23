@@ -1,0 +1,92 @@
+/* sa - s od Start, a od Admin */
+
+.start-window-supervisor-container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  background-color: #9cc9e6;
+}
+
+.start-window-supervisor-element {
+  flex:1;
+  background-color: #9cc9e6;
+  margin: 3%;
+}
+
+.start-window-supervisor-navbar {
+  width: auto;
+  background-color: var(--dark);
+}
+
+.footer-start-window-supervisor {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.div-with-tiles-supervisor {
+  margin-top: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.sw-tile-supervisor {
+  font-size: 13pt;
+  height: 150px;
+  margin: 1%; 
+  align-items: center;
+  box-shadow:  3px 4px 3px #00000078;
+  width: 15%;
+  position: relative;
+  padding: 2%;
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sw-amount-supervisor {
+  font-size: 24px;
+}
+
+.sw-color1-supervisor {
+  background-color: #863288;
+}
+
+.sw-color2-supervisor {
+  background-color: #EB5A41;
+}
+
+.sw-color3-supervisor {
+  background-color: #299C97;
+}
+
+.sw-color4-supervisor {
+  background-color: #2FA0BE;
+}
+
+/* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 768px) {
+  .sw-tile-supervisor {
+    width: calc(100% - 20px); 
+  }
+
+  .start-window-supervisor-element {
+    flex:1;
+    background-color: #9cc9e6;
+    margin: 9%;
+  }
+
+  .sw-tile-supervisor {
+    margin: 3%;;
+  
+  }
+}
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-ig">
+      <rect width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="ig" clip-path="url(#clip-ig)">
+    <g id="Vector_1_" data-name="Vector (1)" transform="translate(1 1)">
+      <path id="Path_1" data-name="Path 1" d="M8,5.333A2.667,2.667,0,1,0,10.667,8,2.667,2.667,0,0,0,8,5.333Z" fill="#b8b9c0"/>
+      <path id="Path_2" data-name="Path 2" d="M4.8,0A4.8,4.8,0,0,0,0,4.8v6.4A4.8,4.8,0,0,0,4.8,16h6.4A4.8,4.8,0,0,0,16,11.2V4.8A4.8,4.8,0,0,0,11.2,0ZM4.267,8A3.733,3.733,0,1,1,8,11.733,3.733,3.733,0,0,1,4.267,8Zm7.467-3.733H12.8V3.2H11.733Z" fill="#b8b9c0" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,175 @@
+.settings-admin-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #9cc9e6;
+}
+
+.container-admin-element {
+  flex: 1;
+  background-color: #9cc9e6;
+  margin: 3%;
+}
+
+.div-with-buttons-settings-admin {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.sw-color4-admin {
+  background-color: #2FA0BE;
+}
+
+.button-in-settings-admin {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 120px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.settings-admin-element {
+  flex: 1;
+  background-color: #9cc9e6;
+  margin: 3%;
+}
+
+.settings-admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.settings-admin-cell {
+  padding: 5px;
+  text-align: left;
+}
+
+.settings-admin-cell-label {
+  font-weight: bold;
+}
+
+.settings-admin-cell-value {
+  padding-left: 15px;
+}
+
+.sw-color4-admin {
+  background-color: #2FA0BE;
+}
+
+.div-to-center-table-settings-admin {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.sw-tile-settings-admin {
+  font-size: 13pt;
+  height: 150px;
+  margin: 1%;
+  align-items: center;
+  box-shadow: 3px 4px 3px #00000078;
+  width: 80%;
+  position: relative;
+  padding: 2%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .settings-admin-element h1 {
+    padding: 15px; 
+  }
+
+  .settings-table td {
+    text-align: left;
+    width: 20%;
+    font-size: 9pt;
+  }
+
+  .settings-admin-item {
+    padding: 6%;
+    width: 90%;
+    margin: 1%;
+  }
+
+  .settings-expand-button {
+    position: relative;
+    top: -15px;
+  }
+
+  .container-admin-element {
+    padding: 15px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .settings-admin-element h1 {
+    padding: 10px;
+    font-size: 15pt;
+  }
+
+  .div-with-buttons-settings-admin {
+    height: auto;
+    align-items: center;
+  }
+
+  .button-in-settings-admin {
+    width: 150px; 
+    margin: 5px; 
+  }
+
+  .settings-admin-element {
+    margin: 3% 0; 
+  }
+
+  .settings-admin-cell,
+  .settings-admin-cell-label,
+  .settings-admin-cell-value {
+    padding: 5px;
+    font-size: 10pt; 
+  }
+
+  .div-to-center-table-settings-admin {
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .sw-tile-settings-admin {
+    font-size: 11pt; 
+    width: 90%; 
+  }
+
+  .container-admin-element {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container-admin-element {
+    margin: 2%;
+  }
+
+  .settings-admin-element {
+    margin: 1%;
+  }
+  
+  .settings-admin-cell, 
+  .settings-admin-cell-label, 
+  .settings-admin-cell-value {
+    font-size: 10pt;
+    word-break: break-all;
+  }
+};

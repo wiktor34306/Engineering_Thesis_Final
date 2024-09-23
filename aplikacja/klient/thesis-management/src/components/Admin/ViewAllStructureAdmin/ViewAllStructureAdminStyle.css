@@ -1,0 +1,125 @@
+.viewallstructure-admin-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #9cc9e6;
+  }
+  
+  .viewallstructure-admin-element {
+    flex:1;
+    background-color: #9cc9e6;
+    margin: 3%;
+  }
+  
+  .viewallstructure-admin-navbar {
+    width: auto;
+    background-color: var(--dark);
+  }
+  
+  .footer-viewallstructure-admin {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .viewallstructure-table th {
+    text-align: left;
+    width: 600px;
+  }
+
+  .div-with-list-of-viewallstructure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viewallstructure-admin-item {
+    background-color: white;
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 25px;
+    opacity: 80%;
+  }
+
+  .viewallstructure-admin-item {
+    transition: all 0.3s;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .viewallstructure-admin-item.expanded {
+    max-height: none;
+    border: 1px solid #ccc;
+  }
+  
+  .viewallstructure-expand-button {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  .viewallstructure-admin-item.expanded .viewallstructure-download-link {
+    display: block;
+  }
+  
+  .viewallstructure-thead {
+    font-size: 14pt;
+  }
+
+  .viewallstructure-function-button-delete {
+    background-color: var(--dark);
+  }
+
+  .viewallstructure-function-button-edit {
+    background-color: var(--primary);
+  }
+
+
+.viewallstructure-function-button {
+  margin-left: 3%;
+  color: #FFF;
+  font-size: 14px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 8%;
+}
+
+  /* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 768px) {
+  .viewallstructure-thead {
+    font-size: 8pt;
+  }
+
+  .viewallstructure-admin-element h1{
+    padding: 25px;
+  }
+
+  .viewallstructure-table td {
+    text-align: left;
+    width: 600px;
+    font-size: 9pt;
+  }
+
+  .viewallstructure-admin-item {
+    padding: 6%;
+    width: 90%;
+    margin: 1%;
+  }
+
+  .viewallstructure-expand-button {
+    position: relative;
+    top: -15px; 
+  }
+}
+
+
+@media (max-width: 320px) {
+  .viewallstructure-admin-element {
+    margin: -1%;
+  }
+
+  .viewallstructure-admin-element h1 {
+    margin-left: 5%;
+    width: auto;
+  }
+}

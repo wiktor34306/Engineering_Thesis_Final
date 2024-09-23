@@ -1,0 +1,106 @@
+.topics-student-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #9cc9e6;
+  }
+  
+  .topics-student-element {
+    flex:1;
+    background-color: #9cc9e6;
+    margin: 3%;
+  }
+  
+  .topics-student-navbar {
+    width: auto;
+    background-color: var(--dark);
+  }
+  
+  .footer-topics-student {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  #reservation-button-student {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: #FFF;
+    width: 100px;
+    font-size: 15px;
+} 
+
+#reservation-button-student-cancel {
+  cursor: pointer;
+  border: none;
+  height: auto;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: #FFF;
+  width: 100px;
+  font-size: 15px;
+}
+
+#disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  border: none;
+  height: 30px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: #FFF;
+  width: 100px;
+  font-size: 15px;
+}
+
+.reserved-topic-info {
+  margin-bottom: 50px
+}
+
+.styled-table-with-topics-student {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.styled-table-with-topics-student th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.styled-table-with-topics-student td {
+  padding: 12px;
+  text-align: left;
+}
+
+.styled-table-with-topics-student tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.styled-table-with-topics-student td:last-child {
+  text-align: center;
+}
+
+  /* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 768px) {
+  .topics-student-element {
+    width: 20px;
+    font-size: 10pt;
+  }
+
+  .topics-student-element h1{
+    padding: 25px;
+    font-size: 12pt;
+  }
+
+  .styled-table-with-topics-student {
+    overflow-x: auto;
+    display: block;
+  }
+}

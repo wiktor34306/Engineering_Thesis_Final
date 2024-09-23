@@ -1,0 +1,259 @@
+.sidenavbar-admin-div-with-range-from-beginning-to-username {
+    background-color: var(--dark);
+    width: 300px;
+    min-height: 100vh;
+    position: relative;
+    color: var(--light);
+    transition: 0.4s;
+    border-radius: 0 10px 10px 0;
+}
+
+.sidenavbar-admin-container {
+    display: flex;
+}
+
+.sidenavbar-admin-div-with-range-from-beginning-to-username-not-expanded {
+    width: 85px;
+}
+
+.sidenavbar-upper-of-navbar, 
+.sidenavbar-admin-heading-of-navbar, 
+.sidenavbar-admin-menu-of-navbar, .sidenavbar-admin-menu-item  {
+    display: grid;
+}
+
+.sidenavbar-admin-heading-of-navbar {
+    height: 75px;
+}
+
+.sidenavbar-admin-nav-brand {
+    display: flex;
+}
+
+.sidenavbar-admin-nav-img-appearance {
+    filter: grayscale(100%) brightness(4);
+    height: 100%;
+}
+
+.sidenavbar-admin-nav-brand img {
+    width: 70%;
+    padding: 0 10px;
+}
+
+.sidenavbar-button {
+    border: none;
+    width: 115%;
+    margin-left: -35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    background: none;
+    display: block;
+    text-align: left;
+    color: var(--light);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.sidenavbar-button:hover {
+    background-color: var(--primary);
+}
+
+.sidenavbar-admin-hamburger-look {
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: auto -35px;
+    background-color: var(--primary);
+    border: 2px solid var(--light);
+    padding: 20px;
+    border-radius: 78px;
+    height: 71px;
+    width: 74px;
+}
+
+.sidenavbar-admin-hamburger-look span {
+    display: block;
+    margin-top: 5px;
+    background-color: var(--light);
+    border-radius: 15px;
+    height: 4px;
+    width: 30px;
+    transition: 0.4s;
+}
+
+.sidenavbar-admin-hamburger-look:hover span {
+    margin: auto;
+}
+
+.sidenavbar-admin-hamburger-look-in:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(-3px, 8px) rotate(30deg);
+}
+
+.sidenavbar-admin-hamburger-look-in:hover span:nth-child(2) {
+    display: none;
+}
+
+.sidenavbar-admin-hamburger-look-in:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(-3px, -8px) rotate(-30deg);
+}
+
+.sidenavbar-admin-hamburger-look-out:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(0px, 8px) rotate(-30deg);
+}
+
+.sidenavbar-admin-hamburger-look-out:hover span:nth-child(2) {
+    display: none;
+}
+
+.sidenavbar-admin-hamburger-look-out:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(0px, -8px) rotate(30deg);
+}
+
+.sidenavbar-admin-menu-of-navbar ol {
+    list-style: none;
+}
+
+.sidenavbar-admin-menu-of-navbar {
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.sidenavbar-admin-menu-item {
+    height: 57px;
+    display: flex;
+    color: var(--light);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sidenavbar-admin-menu-item-not-expanded {
+    width: 4.5em;
+}
+
+.sidenavbar-admin-menu-item:hover {
+    background-color: var(--primary);
+}
+
+.sidenavbar-admin-menu-item img {
+    width: 30px;
+    padding: 0 20px;
+}
+
+.sidenavbar-admin-menu-item:hover > .sidenavbar-admin-tooltip { /* > - reguła stylu będzie miała zastosowanie tylko do bezpośrednich potomków elementu */
+    display: block;
+    background-color: #45667c;
+}
+
+.sidenavbar-admin-tooltip {
+    display: none;
+    position: absolute;
+    left: 99%;
+    bottom: 80%;
+    width: auto;
+    padding: 4px 8px;
+    border-radius: 15px 15px 15px 0;
+    white-space: nowrap;
+    border: 2px solid var(--light);
+    background-color: var(--dark);
+    z-index: 1;
+}
+
+.sidenavbar-admin-down-of-navbars-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+    background-color: var(--dark);
+}
+
+.sidenavbar-admin-div-with-username-and-role {
+    display: flex;
+}
+
+.sidenavbar-admin-div-with-username-and-role img {
+    width: 50px;
+    padding: 0 20px;
+}
+
+.sidenavbar-admin-down-of-navbars-footer-user-name {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sidenavbar-admin-down-of-navbars-footer-user-position {
+    margin-top: -15px;
+    color: var(--gray);
+}
+
+.sidenavbar-admin-icon-of-logout {
+    width: 30px;
+    margin: auto;
+    border-radius: 90px;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.sidenavbar-admin-icon-of-logout:hover {
+    background-color: var(--primary);
+}
+
+.sidenavbar-admin-menu-item:hover .sidenavbar-admin-submenu {
+    display: block;
+}
+
+.sidenavbar-admin-submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: var(--dark); 
+    border-radius: 0 10px 10px 0; 
+    width: 150px; 
+    z-index: 1; 
+}
+
+.sidenavbar-admin-icon-logout-button {
+    background: none;
+    border: none;
+}
+
+.sidenavbar-admin-submenu li {
+    list-style: none;
+    text-align: left;
+}
+
+.sidenavbar-admin-submenu li a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.sidenavbar-admin-submenu li a:hover {
+    background-color: #45667c; 
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .sidenavbar-admin-div-with-range-from-beginning-to-username {
+    height: 120vh;
+}
+
+.sidenavbar-button {
+    width: 138%;
+    margin-left: -35px;
+    font-size: 13pt;
+   
+}
+}

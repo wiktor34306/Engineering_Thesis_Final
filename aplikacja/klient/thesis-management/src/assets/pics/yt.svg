@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-yt">
+      <rect width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="yt" clip-path="url(#clip-yt)">
+    <path id="Vector" d="M1.607.891a30.514,30.514,0,0,1,12.787,0A2.032,2.032,0,0,1,16,2.878v8.243a2.032,2.032,0,0,1-1.606,1.987,30.514,30.514,0,0,1-12.787,0A2.032,2.032,0,0,1,0,11.121V2.878A2.032,2.032,0,0,1,1.607.891ZM7.229,4.423a.533.533,0,0,0-.829.444V9.133a.533.533,0,0,0,.829.444l3.2-2.133a.533.533,0,0,0,0-.888Z" transform="translate(1 2)" fill="#b8b9c0" fill-rule="evenodd"/>
+  </g>
+</svg>

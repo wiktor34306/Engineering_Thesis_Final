@@ -1,0 +1,140 @@
+.documents-supervisor-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #9cc9e6;
+  }
+  
+  .documents-supervisor-element {
+    flex:1;
+    background-color: #9cc9e6;
+    margin: 3%;
+  }
+  
+  .documents-supervisor-navbar {
+    width: auto;
+    background-color: var(--dark);
+  }
+  
+  .footer-documents-supervisor {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .documents-table th {
+    text-align: left;
+    width: 600px;
+  }
+
+  .div-with-list-of-documents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .documents-supervisor-item {
+    background-color: white;
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 25px;
+    opacity: 80%;
+  }
+
+  .documents-supervisor-item {
+    transition: all 0.3s;
+    max-height: 60px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .documents-supervisor-item.expanded {
+    max-height: none;
+    border: 1px solid #ccc;
+  }
+  
+  .documents-expand-button {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+  }
+  
+  .documents-download-link {
+    text-align: right;
+  }
+
+  .documents-download-link a{
+    text-decoration: none;
+  }
+
+  .documents-download-link a:visited{
+    color: #0ca3ff;
+  }
+
+  .documents-download-link a:link{
+    color: var(--primary);
+  }
+  
+  .documents-supervisor-item.expanded .documents-download-link {
+    display: block;
+  }
+  
+  .documents-thead {
+    font-size: 14pt;
+  }
+
+  /* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 768px) {
+  .documents-supervisor-element {
+    width: 70%;
+  }
+
+  .documents-thead {
+    font-size: 8pt;
+  }
+
+  .documents-supervisor-element h1{
+    padding: 25px;
+  }
+
+  .documents-table td {
+    text-align: left;
+    width: 600px;
+    font-size: 9pt;
+  }
+
+  .documents-supervisor-item {
+    padding: 6%;
+    width: 90%;
+    margin: 1%;
+    overflow-x: scroll;
+  }
+
+  .documents-expand-button {
+    position: relative;
+    top: -15px;
+  }
+
+  .documents-download-link a,
+  .documents-download-link a:visited,
+  .documents-download-link a:link {
+    font-size: 9pt;
+  }
+}
+
+@media (max-width: 320px) {
+  .documents-supervisor-element {
+    margin: -1%;
+  }
+
+  .documents-supervisor-element h1 {
+    margin-left: 5%;
+    font-size: 22pt;
+    width: auto;
+  }
+
+  .documents-supervisor-item {
+    margin-left: 5%;
+    width: 70%;
+  }
+}

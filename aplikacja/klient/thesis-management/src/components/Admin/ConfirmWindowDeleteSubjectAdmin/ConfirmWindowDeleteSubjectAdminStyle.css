@@ -1,0 +1,29 @@
+.confirm-delete-subject-modal-admin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffbc;
+    border: 3px solid var(--dark);
+    border-radius: 1%;
+    box-shadow: 24px;
+    padding: 2em 4em;
+}
+
+.confirm-delete-subject-modal-admin h2 {
+    font-size: 24px;
+    color: var(--dark);
+}
+
+.confirm-delete-subject-modal-admin form {
+    margin-top: 1em;
+}
+
+#confirm-accept-button-admin {
+    margin-left: 2px;
+    background-color: var(--dark);
+    color: #FFF;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 1em; 
+}

@@ -1,0 +1,26 @@
+.no-entitlements-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9cc9e6;
+    height: 100vh;
+}
+
+.div-no-entitlements-main {
+    padding: 4%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.no-entitlements-p {
+    color: black;
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 0;
+}
+
+.no-entitlements-size {
+    height: 50px;
+    width: 50px;
+}

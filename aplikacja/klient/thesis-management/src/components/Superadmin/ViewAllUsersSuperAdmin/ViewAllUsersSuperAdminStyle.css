@@ -1,0 +1,91 @@
+/* Stylizacja tabelki */
+.viewusers-table-superadmin {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #4a4646;
+}
+
+.viewusers-td-superadmin {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: auto;
+}
+
+.viewusers-tr-superadmin:nth-child(even) {
+  background-color: #5a5656;
+}
+
+.viewusers-tr-superadmin:hover {
+  background-color: #5a5656;
+}
+
+.viewusers-super-admin-container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  background-color: #2c363b;
+  color: white;
+}
+
+.viewusers-super-admin-element {
+  flex: 1;
+  background-color: #2c363b;
+  margin: 3%;
+}
+
+.viewusers-super-admin-navbar {
+  width: auto;
+  background-color: var(--dark);
+}
+
+.footer-viewusers-super-admin {
+  display: flex;
+  flex-direction: column; 
+}
+
+.viewusers-search {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search-style-viewallusers {
+  border-radius: 2px;
+  border: none;
+  margin-left: 8px;
+}
+
+.viewusers-table-super-admin-all-users {
+  max-height: 480px;
+  overflow-y: auto;
+  background-color: rgb(74, 74, 74);
+  border: 3px solid grey;
+}
+
+
+/* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 820px) {
+  .viewusers-super-admin-element h1 {
+    padding: 25px;
+  }
+
+  .viewusers-table-superadmin td {
+    text-align: left;
+    width: 600px;
+    font-size: 9pt;
+  }
+
+  .viewusers-table-super-admin-all-users {
+    width: 100%;
+  }
+
+  .viewusers-super-admin-element > h1 {
+    font-size: 12pt;
+  }
+
+  .viewusers-super-admin-element {
+    width: 1%;
+  }
+}

@@ -1,0 +1,140 @@
+.documents-worker-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #9cc9e6;
+  }
+  
+  .documents-worker-element {
+    flex:1;
+    background-color: #9cc9e6;
+    margin: 3%;
+  }
+  
+  .documents-worker-navbar {
+    width: auto;
+    background-color: var(--dark);
+  }
+  
+  .footer-documents-worker {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .documents-table-worker th {
+    text-align: left;
+    width: 600px;
+  }
+
+  .div-with-list-of-documents-worker {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .documents-worker-item {
+    background-color: white;
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 25px;
+    opacity: 80%;
+  }
+
+  .documents-worker-item {
+    transition: all 0.3s;
+    max-height: 60px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .documents-worker-item.expanded {
+    max-height: none;
+    border: 1px solid #ccc;
+  }
+  
+  .documents-expand-button-worker {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+  }
+  
+  .documents-download-link-worker {
+    text-align: right;
+  }
+
+  .documents-download-link-worker a{
+    text-decoration: none;
+  }
+
+  .documents-download-link-worker a:visited{
+    color: #0ca3ff;
+  }
+
+  .documents-download-link-worker a:link{
+    color: var(--primary);
+  }
+  
+  .documents-worker-item.expanded .documents-download-link-worker {
+    display: block;
+  }
+  
+  .documents-thead-worker {
+    font-size: 14pt;
+  }
+
+  /* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 768px) {
+  .documents-worker-element {
+    width: 70%;
+  }
+
+  .documents-thead-worker {
+    font-size: 8pt;
+  }
+
+  .documents-worker-element h1{
+    padding: 25px;
+  }
+
+  .documents-table-worker td {
+    text-align: left;
+    width: 600px;
+    font-size: 9pt;
+  }
+
+  .documents-worker-item {
+    padding: 6%;
+    width: 90%;
+    margin: 1%;
+    overflow-x: scroll;
+  }
+
+  .documents-expand-button-worker {
+    position: relative; 
+    top: -15px;
+  }
+
+  .documents-download-link-worker a,
+  .documents-download-link-worker a:visited,
+  .documents-download-link-worker a:link {
+    font-size: 9pt;
+  }
+}
+
+@media (max-width: 320px) {
+  .documents-worker-element {
+    margin: -1%;
+  }
+
+  .documents-worker-element h1 {
+    margin-left: 5%;
+    font-size: 22pt;
+    width: auto;
+  }
+
+  .documents-worker-item {
+    margin-left: 5%;
+    width: 70%;
+  }
+}

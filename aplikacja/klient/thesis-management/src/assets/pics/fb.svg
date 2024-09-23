@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-fb">
+      <rect width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="fb" clip-path="url(#clip-fb)">
+    <path id="Vectorf" d="M7.415,3.656h1.6V.873A20.63,20.63,0,0,0,6.685.75C4.381.75,2.8,2.2,2.8,4.862V7.313H.261v3.111H2.8V18.25H5.92V10.424H8.359l.387-3.111H5.919V5.17C5.92,4.271,6.162,3.656,7.415,3.656Z" transform="translate(4.363 -0.5)" fill="#b8b9c0"/>
+  </g>
+</svg>

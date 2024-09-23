@@ -1,0 +1,121 @@
+.topics-supervisor-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #9cc9e6;
+  }
+  
+  .topics-supervisor-element {
+    flex:1;
+    background-color: #9cc9e6;
+    margin: 3%;
+  }
+  
+  .topics-supervisor-navbar {
+    width: auto;
+    background-color: var(--dark);
+  }
+  
+  .footer-topics-supervisor {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .button-view-all-topics-supervisor-generate-csv {
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+
+.button-div-view-all-topics-supervisor-gen-csv {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+
+.button-view-all-topics-supervisor-edit {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: white;
+  padding: 4%;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 120px;
+}
+
+.button-view-all-topics-supervisor-delete {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: white;
+  padding: 4%;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 120px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+th.choosen {
+  cursor: pointer;
+}
+
+.styled-table-with-topics-supervisor {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.styled-table-with-topics-supervisor th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.styled-table-with-topics-supervisor td {
+  padding: 12px;
+  text-align: left;
+}
+
+
+/* efekt podświetlenia wiersza po najechaniu myszką */
+.styled-table-with-topics-supervisor tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+  /* Media query dla ekranów o szerokości 768px lub mniejszej */
+@media (max-width: 768px) {
+  .topics-supervisor-element {
+    width: 20px;
+    font-size: 10pt;
+  }
+
+  .topics-supervisor-element h1{
+    padding: 25px;
+  }
+
+  .topics-table td {
+    text-align: left;
+    width: 600px;
+    font-size: 9pt;
+  }
+  
+  .styled-table-with-topics-supervisor {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .button-view-all-topics-supervisor-generate-csv {
+    width: 200px;
+    height: 60px;
+  }
+}
+  

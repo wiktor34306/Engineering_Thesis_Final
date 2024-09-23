@@ -1,0 +1,111 @@
+.viewallstructure-super-admin-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #2c363b;
+    color: white;
+  }
+  
+  .viewallstructure-super-admin-element {
+    flex:1;
+    background-color: #2c363b;
+    margin: 3%;
+  }
+  
+  .viewallstructure-super-admin-navbar {
+    width: auto;
+    background-color: var(--dark);
+  }
+  
+  .footer-viewallstructure-super-admin {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .div-with-list-of-viewallstructure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viewallstructure-super-admin-item {
+    background-color: white;
+    color: black;
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 25px;
+    opacity: 80%;
+  }
+
+  .viewallstructure-super-admin-item {
+    transition: all 0.3s;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .viewallstructure-super-admin-item.expanded {
+    max-height: none;
+    border: 1px solid #ccc;
+  }
+  
+  .viewallstructure-expand-button {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  .viewallstructure-super-admin-item.expanded {
+    display: block;
+  }
+
+  .viewallstructure-function-button-delete {
+    background-color: var(--dark);
+  }
+
+  .viewallstructure-function-button-edit {
+    background-color: var(--primary);
+  }
+
+
+.viewallstructure-function-button {
+  margin-left: 3%;
+  color: #FFF;
+  font-size: 14px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 8%;
+}
+
+@media (max-width: 768px) {
+
+  .viewallstructure-super-admin-element h1{
+    padding: 25px;
+  }
+
+  .viewallstructure-expand-button {
+    position: relative;
+    top: -2px; 
+  }
+
+  .viewallstructure-function-button {
+    margin-left: 0; 
+    margin-top: 10px; 
+    width: 100%; 
+  }
+
+  .viewallstructure-expand-button .viewallstructure-function-button {
+    margin-left: 3%; 
+  }
+}
+
+@media (max-width: 320px) {
+  .viewallstructure-super-admin-element {
+    margin: -1%;
+  }
+
+  .viewallstructure-super-admin-element h1 {
+    margin-left: 5%;
+    width: auto;
+  }
+}

@@ -1,0 +1,122 @@
+.topics-super-admin-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: #2c363b;
+    color: white;
+  }
+  
+  .topics-super-admin-element {
+    flex:1;
+    background-color: #2c363b;
+    color: white;
+    margin: 3%;
+  }
+  
+  .topics-super-admin-navbar {
+    width: auto;
+    background-color: var(--dark);
+  }
+  
+  .footer-topics-super-admin {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  th.choosen {
+    cursor: pointer;
+  }
+
+  .button-view-all-topics-super-admin-generate-csv {
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+
+  .button-view-all-topics-super-admin-assign-to {
+    margin-left: 10px;
+  }
+
+  .button-view-all-topics-super-admin-edit {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: white;
+    padding: 4%;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 100px;
+  }
+  
+  .button-view-all-topics-super-admin-delete {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: white;
+    padding: 4%;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 100px;
+    margin-top: 5px;
+  }
+  
+
+.styled-table-with-topics-super-admin {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.styled-table-with-topics-super-admin th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.styled-table-with-topics-super-admin td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* podświetlenie wiersza po najechaniu myszką */
+.styled-table-with-topics-super-admin tbody tr:hover {
+  background-color: rgb(107, 113, 116);
+}
+
+  
+  .button-div-view-all-topics-super-admin-gen-csv {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  }
+
+@media (max-width: 768px) {
+  .topics-super-admin-element {
+    width: 20px;
+    font-size: 10pt;
+  }
+
+  .topics-super-admin-element h1 {
+    margin-left: 10%;
+  }
+
+  .styled-table-with-topics-super-admin {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .button-view-all-topics-super-admin-generate-csv {
+    width: 200px;
+    height: 60px;
+  }
+  
+}
+
+
